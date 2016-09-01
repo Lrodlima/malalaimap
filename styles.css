@@ -1,0 +1,21 @@
+body, html {
+  font-family: 'Roboto', Arial, sans-serif;
+  height: 100%;
+  margin: 0;
+}
+
+paper-card {
+  position: absolute;
+  bottom: 200px;
+  left: 25px;
+  z-index: 1;
+}
+
+paper-tab iron-icon {
+  margin-right: 10px;
+}
+
+paper-tab.iron-selected {
+  background: rgb(66, 133, 244);
+  color: white;
+}
